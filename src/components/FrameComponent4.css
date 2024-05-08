@@ -1,0 +1,169 @@
+.nosotros {
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 77px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 121px;
+}
+.spark-sparkle-26 {
+  height: 101.9px;
+  width: 102.2px;
+  position: absolute;
+  margin: 0 !important;
+  top: -52.7px;
+  left: -40px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  z-index: 1;
+}
+.nosotros-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.achieved-reduction-in {
+  width: 207.8px;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 130%;
+  font-weight: 500;
+  font-family: var(--font-manrope);
+  color: var(--color-gray-100);
+  display: flex;
+  align-items: center;
+}
+.frame-parent5 {
+  width: 267.8px;
+  box-shadow: 0 22.6px 36.14px rgba(30, 30, 30, 0.09);
+  border-radius: 27.11px;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xl) var(--padding-xl) var(--padding-11xl)
+    var(--padding-11xl);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  z-index: 2;
+}
+.enhance-fortune-50 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 120%;
+  font-weight: 600;
+  font-family: inherit;
+  flex-shrink: 0;
+  
+  z-index: 1;
+}
+.c,
+.creado-por-post-office,
+.twins-and-martin-child {
+  height: 10.8px;
+  width: 10.8px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-mediumseagreen);
+}
+.creado-por-post-office,
+.twins-and-martin-child {
+  background-color: var(--color-gainsboro);
+}
+.twins-and-martin {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  flex-shrink: 0;
+  
+}
+.enhance-fortune-50-companys-i-parent,
+.frame-wrapper1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.enhance-fortune-50-companys-i-parent {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-36xl);
+}
+.frame-wrapper1 {
+  width: 398px;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-5xl-2);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-21xl);
+  font-family: var(--font-manrope);
+}
+.frame-parent4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-switzer);
+}
+@media screen and (max-width: 1050px) {
+  .nosotros {
+    font-size: var(--font-size-32xl);
+    line-height: 61px;
+  }
+  .enhance-fortune-50 {
+    font-size: var(--font-size-13xl);
+    line-height: 38px;
+  }
+  .frame-parent4 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .nosotros {
+    font-size: var(--font-size-19xl);
+    line-height: 46px;
+  }
+  .enhance-fortune-50 {
+    font-size: var(--font-size-5xl);
+    line-height: 29px;
+  }
+  .enhance-fortune-50-companys-i-parent {
+    gap: var(--gap-8xl);
+  }
+}
+@keyframes fadeInSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.frame-parent4 {
+  position: relative; /* Ensure positioning */
+  z-index: 10; /* Adjust this value as needed */
+}
+
+.frame-parent5,
+.enhance-fortune-50-companys-i-parent,
+.twins-and-martin-child,
+.creado-por-post-office {
+  animation: fadeInSlideIn 1s ease-out forwards;
+}

@@ -1,0 +1,236 @@
+.frame-child1 {
+  width: 52px;
+  height: 52px;
+  position: relative;
+}
+.frame-wrapper4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.days {
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 92px;
+}
+.staff-deployment {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 21px;
+  font-weight: 500;
+  color: var(--color-gray-100);
+}
+.days-parent {
+  flex-direction: column;
+  gap: var(--gap-11xs);
+}
+.days-parent,
+.frame-parent7,
+.frame-wrapper3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 10;
+}
+.frame-parent7 {
+  align-self: stretch;
+  box-shadow: 0 15.2px 35.49px rgba(0, 0, 0, 0.09);
+  border-radius: 111.54px;
+  background-color: var(--color-white);
+  flex-direction: row;
+  padding: var(--padding-base);
+  gap: var(--gap-sm);
+  z-index: 2;
+}
+.frame-wrapper3 {
+  width: 245px;
+  flex-direction: column;
+  padding: 0 0 var(--padding-76xl);
+  box-sizing: border-box;
+  min-height: 183px;
+}
+.frame-child2 {
+  position: absolute;
+  top: 70px;
+  left: 396.3px;
+  width: 79.7px;
+  height: 79.7px;
+}
+.mask-group-icon3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.frame-parent9 {
+  height: 546.3px;
+  width: 507px;
+  position: absolute;
+  margin: 0 !important;
+  top: -357px;
+  left: -292.3px;
+}
+.inicio-maquina,
+.million {
+  position: relative;
+  font-weight: 500;
+}
+.inicio-maquina {
+  flex: 1;
+  letter-spacing: -0.03em;
+  line-height: 120%;
+  white-space: nowrap;
+}
+.million {
+  letter-spacing: 0.01em;
+  line-height: 32px;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 91px;
+}
+.inicio-maquina-parent,
+.million-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.million-wrapper {
+  flex-direction: column;
+  padding: var(--padding-18xl) 0 0;
+  font-size: var(--font-size-3xl-8);
+  color: var(--color-darkgray-100);
+}
+.inicio-maquina-parent {
+  width: 221px;
+  flex-direction: row;
+  gap: var(--gap-2xs);
+}
+.reduced-client-expenses {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 130%;
+  font-weight: 500;
+  font-family: var(--font-manrope);
+  color: var(--color-lightgray-200);
+}
+.frame-parent8,
+.meshiistudiocloseupofdiferrent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.meshiistudiocloseupofdiferrent {
+  flex: 1;
+  box-shadow: 0 23.6px 37.81px rgba(30, 30, 30, 0.09);
+  border-radius: 28.36px;
+  background-color: var(--color-darkslategray-200);
+  border: 1.2px solid var(--color-darkslategray-100);
+  flex-direction: column;
+  padding: var(--padding-13xl) var(--padding-10xl) var(--padding-19xl)
+    var(--padding-16xl);
+  gap: var(--gap-xl);
+  z-index: 2;
+}
+.frame-parent8 {
+  width: 290.5px;
+  flex-direction: row;
+  position: relative;
+  font-size: var(--font-size-44xl-4);
+  color: var(--color-white);
+  font-family: var(--font-switzer);
+}
+.frame-button {
+  align-self: stretch;
+  height: 88px;
+  z-index: 1;
+}
+.frame-wrapper5 {
+  height: 137px;
+  width: 245px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent6,
+.frame-wrapper2 {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.frame-parent6 {
+  width: 993.8px;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frame-wrapper2 {
+  width: 1166.2px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-manrope);
+}
+@media screen and (max-width: 1050px) {
+  .inicio-maquina {
+    font-size: var(--font-size-32xl);
+    line-height: 61px;
+  }
+  .frame-parent6 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .days {
+    font-size: var(--font-size-lgi);
+  }
+  .frame-parent7 {
+    flex-wrap: wrap;
+  }
+  .inicio-maquina {
+    font-size: var(--font-size-19xl);
+    line-height: 46px;
+  }
+  .million {
+    font-size: var(--font-size-lg);
+    line-height: 26px;
+  }
+}
+@keyframes flyIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply the animation to all elements you want to animate */
+.frame-wrapper2,
+.frame-parent6,
+.frame-wrapper3,
+.frame-parent7,
+.frame-wrapper4,
+.days-parent,
+.frame-parent8,
+.frame-parent9,
+.meshiistudiocloseupofdiferrent,
+.inicio-maquina-parent,
+.reduced-client-expenses,
+.frame-wrapper5,
+.frame-button {
+  animation: flyIn 1s ease-out forwards;
+}

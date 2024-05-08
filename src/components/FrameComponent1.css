@@ -1,0 +1,221 @@
+.union-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.union-wrapper {
+  height: 563.6px;
+  width: 491px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-30xl) 0 0;
+  box-sizing: border-box;
+  min-width: 491px;
+  max-width: 100%;
+}
+.whats-the-guarantee,
+.with-the-hired {
+  margin: 0;
+}
+.whats-the-guarantee-container {
+  position: relative;
+  line-height: 140%;
+  font-weight: 600;
+}
+.frame-icon1 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.right-skillset-duration-picker {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) 0 0;
+}
+.whats-the-guarantee-that-i-wi-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.line-div {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-lightgray-100);
+  box-sizing: border-box;
+}
+.frame-parent11 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.can-i-hire {
+  position: relative;
+  line-height: 140%;
+  font-weight: 600;
+}
+.frame-icon2 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.what-is-on-your-mind-input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.can-i-hire-multiple-talents-at-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frame-child3,
+.if-unhappy-with {
+  align-self: stretch;
+  position: relative;
+}
+.if-unhappy-with {
+  height: 78px;
+  font-size: var(--font-size-mini);
+  line-height: 160%;
+  color: var(--gray-600);
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frame-child3 {
+  height: 1px;
+  border-top: 1px solid var(--color-lightgray-100);
+  box-sizing: border-box;
+}
+.frame-parent12 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.group {
+  align-self: stretch;
+  height: 53px;
+  font-family: var(--font-manrope);
+  font-weight: 600;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-300);
+}
+.and-duration-for,
+.who-can-help {
+  margin: 0;
+}
+.who-can-help-container1 {
+  width: 100%;
+}
+.who-can-help-container {
+  width: 446px;
+  position: relative;
+  line-height: 140%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  max-width: calc(100% - 44px);
+}
+.frame-icon3 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frame-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) 0 0;
+}
+.who-can-help-me-pick-a-right-s-parent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frame-parent10,
+.skill-selection-helper,
+.who-can-help-me-pick-a-right-s-parent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-parent10 {
+  width: 581px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-16xl);
+  min-width: 581px;
+}
+.skill-selection-helper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-shrink: 0;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-manrope);
+}
+@media screen and (max-width: 1200px) {
+  .union-icon {
+    align-self: stretch;
+    width: auto;
+  }
+  .frame-parent10,
+  .union-wrapper {
+    flex: 1;
+  }
+  .skill-selection-helper {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .union-wrapper {
+    padding-top: var(--padding-13xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .frame-parent10 {
+    gap: var(--gap-mid);
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .can-i-hire,
+  .whats-the-guarantee-container,
+  .who-can-help-container {
+    font-size: var(--font-size-base);
+    line-height: 22px;
+  }
+}
